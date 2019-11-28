@@ -9,7 +9,7 @@ es: per scrivere nel campo aggiuntivo _Fidelity Card_ con codice fidelity_card v
 
 ```<input id="fidelitycard" name="crmincloud_ff_fidelity_card" type="text" />```
 
-Attenzione: è necessario generare un token (apiKey) come descritto in questa pagina: https://help.crmincloud.com/it/article/xpddi3/
+Attenzione: è necessario generare un token (apiKey) come descritto in questa pagina: https://help.crmincloud.it/it/article/xpddi3/
 
 Se si utilizza solo codice javascript. il token sarà visibile all'interno dell'html, quindi è importante limitare lo scope di accesso alla sola creazione di nuovi lead. 
 
