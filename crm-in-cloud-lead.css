@@ -1,0 +1,62 @@
+.crmincloud-input-group {
+    color: #333;
+    font-family: arial, serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 2px 10px;
+    width: 200px;
+}
+
+.crmincloud-input-group input, .crmincloud-input-group select, .crmincloud-input-group textarea  {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 12px;
+    height: 26px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.crmincloud-input-group textarea  {
+    height: auto;
+    padding: 8px 0 0 8px;
+}
+
+.crmincloud-input-group .error-message {
+    display: none;
+    color: #cc0033;
+}
+
+.crmincloud-input-group label {
+    display: block;
+}
+
+.crmincloud-input-group.error label {
+    color: #cc0033;
+}
+
+.crmincloud-input-group.error input,.crmincloud-input-group.error select,.crmincloud-input-group.error textarea {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+    font-size: 11px;
+}
+
+.crmincloud-input-group.error .error-message {
+    display: block;
+}
+.crmincloud-input-group input[type=button]:hover {
+    border: 1px solid #0099cc;
+    background-color: #00aacc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.crmincloud-input-group input[type=button]:disabled,
+.crmincloud-input-group input[type=button][disabled]{
+    border: 1px solid #60b457;
+    background-color: #79cc56;
+    color: #ffffff;
+    cursor: not-allowed;
+}

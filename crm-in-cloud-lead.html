@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="crm-in-cloud-lead.css">
+</head>
+<body>
+<form id="crmincloud_form">
+    <div class="crmincloud-input-group">
+        <label for="name">Nome:</label>
+        <input id="name" minlength="2" name="crmincloud_name" required="" type="text"/>
+        <div class="error-message">Il nome è un campo richiesto.</div>
+    </div>
+    <div class="crmincloud-input-group">
+        <label for="surname">Cognome:</label>
+        <input id="surname" minlength="2" name="crmincloud_surname" required="" type="text"/>
+        <div class="error-message">Il cognome è un campo richiesto.</div>
+    </div>
+    <div class="crmincloud-input-group">
+        <label for="companyname">Azienda:</label>
+        <input id="companyname" name="crmincloud_companyname" type="text"/>
+    </div>
+    <div class="crmincloud-input-group">
+        <label for="email">Email:</label>
+        <input id="email" name="crmincloud_emails" placeholder="me@example.com" required="" type="email"/>
+        <div class="error-message">l'email è un campo richiesto.</div>
+    </div>
+    <div class="crmincloud-input-group">
+        <label for="note">Richiesta:</label>
+        <textarea id="note" name="crmincloud_note" placeholder="Vorrei sapere..." rows="4"></textarea>
+    </div>
+
+<!--
+    Si possono utilizzare tutti i campi dell'oggetto lead come address, city, zipcode, province, region, 
+    state, vatid, website, taxidentificationnumber, ecc. Per i campi aggiuntivi bast aaggiungere il prefisso ff_ al nome del campo.
+-->
+
+    <div class="crmincloud-input-group">
+        <input id="submit" name="crmincloud_submit" text="Registrati" type="button" value="Iscriviti"/>
+    </div>
+</form>
+<script src="crm-in-cloud-lead.js" type="text/javascript"></script>
+</body>
+</html>
