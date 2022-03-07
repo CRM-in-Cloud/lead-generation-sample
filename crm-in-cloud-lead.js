@@ -81,7 +81,7 @@ var crmincloudlead = {
     },
     post: function post(data, btn) {
         var xhr = new XMLHttpRequest();
-        xhr.withCredentials = true;
+        xhr.withCredentials = false;
 
         xhr.addEventListener('readystatechange', function () {
             if (this.readyState === 4) {
